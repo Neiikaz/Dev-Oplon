@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entreprise test cas situation 8">
+    <title>Entreprise cas 8</title>
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+</head>
+<body>
+    <!--Début du Header-->
+    <header>
+    <!--Logo de l'entreprise-->
+    <img class="logoentreprise" id="logoentreprise" src="assets/img/teamwork-3213924_1280.jpg" width="200" height="160" alt="Logo de l'entreprise">
+    <!--Menu nav (accueil/à propos/contact)-->
+    <nav>
+        <ul>
+            <li><a href="index.html" target="_self" title="accueil">Accueil</a></li>
+            <li><a href="#apropos" target="_self" title="#apropos">À propos</a></li>
+            <li><a href="#contact" target="_self" title="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!--Fin menu de nav-->
+    <h1>Bienvenue sur notre one-page de l'entreprise</h1>   
+    </header>
+    <main>
+    <!--Début de à propos-->    
+        <div class="nous">
+            <h2 id="apropos">À Propos</h2>
+            <p>Nos membre sans qui nous ne pouvons pas travailler sont ceux indiqué dans ce tableau, chaque rôle est détaillé et toute les dates d'embauche également.</p>
+    <!--Fin de à propos-->            
+    <!--Début du tableau membre sous colgroup-->
+                <table>
+                    <colgroup>
+                        <col span="1" style="background-color: gray; width:200px;">
+                        <col span="1" style="background-color: green;">
+                        <col span="1" style="background-color: orange;">
+                    </colgroup>
+                <!--Le Thead-->
+                    <thead>
+                        <tr>
+                            <th>Nom du membre</th>
+                            <th>Poste occupé</th>
+                            <th>Date d'embauche</th>
+                        </tr>
+                    </thead>
+                    <!--Fin du Thead-->
+                    <!--Début du Tbody-->
+                    <tbody>
+                        <tr>
+                            <td>Florian</td>
+                            <td>PDG de Dev'Oplon</td>
+                            <td><time datetime="2024-09-18"></time>18 Septembre 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Imane</td>
+                            <td>RH de Dev'Oplon</td>
+                            <td><time datetime="2024-09-18"></time>18 Septembre 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Nicolas</td>
+                            <td>Chef de projet de Dev'Oplon</td>
+                            <td><time datetime="2024-09-18"></time>18 Septembre 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Jimmy</td>
+                            <td>Dév front-end de Dev'Oplon</td>
+                            <td><time datetime="2024-09-18"></time>18 Septembre 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Stéphan</td>
+                            <td>Dév back-end de Dev'Oplon</td>
+                            <td><time datetime="2024-09-18"></time>18 Septembre 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Hugo</td>
+                            <td>Clown de Dev'Oplon</td>
+                            <td><time datetime="2024-09-18"></time>18 Septembre 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Romain</td>
+                            <td>Dormeur de Dev'Oplon</td>
+                            <td><time datetime="2024-09-18"></time>18 Septembre 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Ilan</td>
+                            <td>Dév Ops de Dev'Oplon</td>
+                            <td><time datetime="2024-09-18"></time>18 Septembre 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Tanguy</td>
+                            <td>Apprenti dév de Dev'Oplon</td>
+                            <td><time datetime="2024-09-18"></time>18 Septembre 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Imran</td>
+                            <td>Syndicat de Dev'Oplon</td>
+                            <td><time datetime="2024-09-18"></time>18 Septembre 2024</td>
+                        </tr>
+                        <tr>
+                            <td>Tristan</td>
+                            <td>Dév Full Stack de Dev'Oplon</td>
+                            <td><time datetime="2024-09-18"></time>18 Septembre 2024</td>
+                        </tr>
+                    </tbody>
+                <!--Fin du TBody-->
+            </table>
+        </div>
+        <!--Fin du tableau avec colgroup-->
+        <h3>Notre galerie d'image</h3>
+        <!--Balise figure début-->
+        <section class="imagesgalerie">
+            <h3>Nos images</h3>
+            <figure>
+                <img src="assets/img/locoexter.jpg" alt="Locaux vu d'extérieur" width="200" height="200">
+                <figcaption>Vu extérieur des locaux</figcaption>
+            </figure>
+            <figure>    
+                <img src="assets/img/hall.jpg" alt="Hall d'entrée" width="200" height="200">
+                <figcaption>Hall d'entrée des locaux</figcaption>
+            </figure>
+            <figure>    
+                <img src="assets/img/sallededejeuner.jpg" alt="Salle déjeuner" width="200" height="200">
+                <figcaption>Salle pour déjeuner</figcaption>
+            </figure>
+            <figure>
+                <img src="assets/img/bureauflorian.jpg" alt="Bureau du pdg" width="200" height="200">
+                <figcaption>Bureau du PDG Florian</figcaption>    
+            </figure>
+        </section>
+        <!--Balise Figure fin-->
+        <section class="imageplan">
+            <h3>Plan d'accès</h3>
+        <!--Début du plan cliquable-->    
+            <img src="assets/img/planacces.png" alt="plan d'accès" usemap="#planacces">
+            <map name="planacces">
+                <!-- Cliquer entre le luet et les bouchaubert -->
+                <area shape="rect" coords="0,0,200,200" href="https://maps.app.goo.gl/UMKwioq7UHAQ47XK9" alt="entrée des locaux à extérieur">
+                <!--Cliquer sur baulieu-->
+                <area shape="rect" coords="300,300,500,500" href="https://maps.app.goo.gl/nYVKEKY7X1rb6zqs8" alt="Bureau du PDG Florian">
+            </map>
+        </section>
+        <!--Fin du plan cliquable-->
+        <!--Début séction FAQ-->
+        <section id="FAQ">
+        <h4>Les question qui sont souvent posées</h4>
+        <details>
+            <summary><strong> Pourquoi le bureau de Florian se trouve aussi loin ?</strong></summary>
+            <p>Tout pour l'exil fiscale tout simplement.</p>
+        </details>
+        <details>
+            <summary><strong>Pourquoi Dev'Oplon comme nom ?</strong></summary>        
+            <p>Nous codons les sites web à coup de balles de plomb.</p>
+        </details>
+        <details>
+            <summary><strong>Pourquoi Hugo à le poste de clown ?</strong></summary>
+            <p>Il est jeune et con tout simplement.</p>
+        </details>
+        </section>
+    </main>
+    <footer>
+        <!--Information légale de l'entreprise <address>-->
+        <div>
+            <address class="infolegale" id="contact">
+                <p>Entreprise Dev'Oplon</p>
+                <p>14 Allée Charles Pathé</p>
+                <p>1800 Bourges</p>
+                <p><a href="tel:+33648649999" title="phone">06 48 64 99 99</a></p>
+                <p><a href="mailto:devoplonbourges@oplon.fr" title="emailfoot">devoplonbourges@oplon.fr</a></p>
+                <p><a href="https://www.instagram.com/" title="instadevoplon"><img src="assets/img/instagram.png" alt="logoinstadevoplon" id="logoinstadevoplon" width="20" height="20"></a></p>
+                <p><a href="https://www.facebook.com/?locale=fr_FR" title="facebookdevoplon"><img src="assets/img/facebook-logo-splash-design-icon-701751695134688bnr4dgaq0y.png" alt="logofacebookpage" id="logofacebookpage" width="20" height="20"></a></p>
+            </address>
+        </div>
+        <!--Fin Information légale de l'entreprise <address>-->
+    </footer>
+    
+</body>
+</html>
